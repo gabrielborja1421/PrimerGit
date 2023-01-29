@@ -1,7 +1,7 @@
 import requests
 import json
 if __name__=='__main__':
-    url = 'https://pokeapi.co/api/v2/pokemon?limit=8&offset=0'
+    url = 'https://pokeapi.co/api/v2/pokemon?limit=8&offset='
     response = requests.get(url)
 
 
